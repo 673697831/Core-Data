@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15A284" minimumToolsVersion="Xcode 7.0">
+    <entity name="RDPageStatsCount" representedClassName="RDPageStatsCount" syncable="YES">
+        <attribute name="uploadCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RDPageStatsInfo" representedClassName="RDPageStatsInfo" syncable="YES">
+        <attribute name="pageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recordTime" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="stayTime" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RDPageStatsCount" positionX="-54" positionY="9" width="128" height="75"/>
+        <element name="RDPageStatsInfo" positionX="-54" positionY="27" width="128" height="90"/>
+    </elements>
+</model>
